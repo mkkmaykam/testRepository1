@@ -2,12 +2,17 @@
 <projectDescription>
 	<name>CICDPkg</name>
 	<comment></comment>
-	<comment></comment>
-            <projects>
-            </projects>
-            <natures>
-                        <nature>com.softwareag.is.vcsintegration.nature</nature>
-                        <nature>org.eclipse.jdt.core.javanature</nature>
-            </natures>
-
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.softwareag.is.vcsintegration.ISPackageBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.softwareag.is.vcsintegration.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
 </projectDescription>
